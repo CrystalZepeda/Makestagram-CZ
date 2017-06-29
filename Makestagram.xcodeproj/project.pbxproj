@@ -12,6 +12,7 @@
 		06E0D3D61F05BFAA00149F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E0D3D41F05BFAA00149F40 /* Main.storyboard */; };
 		06E0D3D81F05BFAA00149F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E0D3D71F05BFAA00149F40 /* Assets.xcassets */; };
 		06E0D3DB1F05BFAA00149F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E0D3D91F05BFAA00149F40 /* LaunchScreen.storyboard */; };
+		06E0D3E51F05C0DF00149F40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06E0D3E41F05C0DF00149F40 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		06E0D3D71F05BFAA00149F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06E0D3DA1F05BFAA00149F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06E0D3DC1F05BFAA00149F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E0D3E41F05C0DF00149F40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		06E0D3CF1F05BFAA00149F40 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				06E0D3E41F05C0DF00149F40 /* GoogleService-Info.plist */,
 				06E0D3D01F05BFAA00149F40 /* AppDelegate.swift */,
 				06E0D3D21F05BFAA00149F40 /* ViewController.swift */,
 				06E0D3D41F05BFAA00149F40 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06E0D3DB1F05BFAA00149F40 /* LaunchScreen.storyboard in Resources */,
+				06E0D3E51F05C0DF00149F40 /* GoogleService-Info.plist in Resources */,
 				06E0D3D81F05BFAA00149F40 /* Assets.xcassets in Resources */,
 				06E0D3D61F05BFAA00149F40 /* Main.storyboard in Resources */,
 			);
